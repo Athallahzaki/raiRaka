@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    height: 100vh;
+    width: 100%;
+    background: url('./media/backgrond.png');
+    background-position: top;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #fff;
+	letter-spacing: 2px;
+}
+
+.jumbotron .lead {
+    font-size: 3em;
+	font-weight: 500;
+	color: #000;
+	letter-spacing: 2px;
+}
+
+.jumbotron .container {
+    margin-top:23%;
+	transform: translateY(-23%);
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    /* Set the hr color */
+    color: #808080; /* old IE */
+    background-color: #CFCFCF; /* Modern Browsers */
+
+}
+
+.icon {
+    width: 20%;
+    height: 20%;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
