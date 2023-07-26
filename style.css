@@ -62,3 +62,14 @@ hr {
 .card-deck .card {
     min-width: 220px;
 }
+
+/* collection */
+.active-filter-btn{
+    background-color: #2596be!important;
+    color: #fff!important;
+    border-color: #2596be!important;
+    
+}
+.filter-button-group .btn:hover{
+    color: #2596be!important;
+}
